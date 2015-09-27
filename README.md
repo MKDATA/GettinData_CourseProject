@@ -69,4 +69,4 @@ names(HumanActivity)<-gsub("Mag", "Magnitude", names(HumanActivity))
 
 tidy_data <- aggregate(.~subject+activity, HumanActivity, mean)
 tidy_data <- tidy_data[order(tidy_data$subject, tidy_data$activity), ]
-write.csv(tidy_data, "./data/UCI HAR Dataset/tidy_data.csv", row.names=FALSE)
+write.table(tidy_data, file = "data/UCI HAR Dataset/tidy_data.txt",row.name=FALSE)
