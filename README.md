@@ -1,4 +1,4 @@
-# GettinData_CourseProject
+# GettingData_CourseProject
 This repo includes result of GettingData project
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 This repository includes:
